@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>IMC V.2</title>
+  </head>
+  <body>
+    <h1>IMC V.2</h1>
+
+    <label for="input-peso">Peso (kg):</label><br />
+    <input id="input-peso" type="number" value="98" step="0.1" /><br /><br />
+
+    <label for="input-altura">Altura (m): </label><br />
+    <input id="input-altura" type="number" value="1.78" step="0.01" />
+
+    <p>
+      <button id="botao_calcular_imc">Calcular IMC</button>
+    </p>
+
+    <p id="resultado_paragrafo">
+      O IMC desses dados é <strong id="resultado_imc"></strong>
+    </p>
+
+    <p id="resultado_paragrafo">
+      Este valor considera que você está na faixa <strong id="resultado_faixa"></strong>
+    </p>
+
+    <script defer src="imc_v2.js"></script>
+  </body>
+</html>
